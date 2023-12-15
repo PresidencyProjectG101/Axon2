@@ -1,0 +1,20 @@
+import React from 'react'
+import Logo from '../../img/logo.png'
+// import {UilSearch} from '@iconscout/react-unicons'
+import './LogoSearch.css'
+const LogoSearch = () => {
+  return (
+   <div className="LogoSearch">
+       <img src={Logo} alt="" />
+       <div className="Search">
+           <input type="text" placeholder=' Search...' />
+           <div className="s-icon">
+               {/* <UilSearch/> */}
+               <i class="fa fa-search" aria-hidden="true"></i>
+           </div>
+       </div>
+   </div>
+  )
+}
+
+export default LogoSearch

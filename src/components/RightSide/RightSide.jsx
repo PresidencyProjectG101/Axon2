@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./RightSide.css";
+import FollowersCard from '../FollowersCard/FollowersCard'
+
 import Home from "../../img/home.png";
 import Noti from "../../img/noti.png";
 import Comment from "../../img/comment.png";
@@ -18,6 +20,9 @@ const RightSide = () => {
         <img src={Comment} alt="" />
       </div>
 
+{/* edited one */}
+      <FollowersCard/>
+{/* =========== */}
       <TrendCard />
 
       <button className="button r-button" onClick={() => setModalOpened(true)}>

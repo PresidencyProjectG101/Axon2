@@ -23,17 +23,20 @@ const PostShare = () => {
   return (
     <div className="PostShare">
       <img src={ProfileImage} alt="" />
+
       <div>
-        <input type="text" placeholder="What's happening" />
+
+        <input type="text" placeholder="What's happening" style={{color:"white"}}/>
+
         <div className="postOptions">
-          <div className="option" style={{ color: "var(--photo)" }}
-          onClick={()=>imageRef.current.click()}
-          >
-            <UilScenery />
-            {/* <i class="fa fa-picture-o" aria-hidden="true"></i> */}
-            Photo
+
+          <div className="option" style={{ color: "aliceblue" }}
+          onClick={()=>imageRef.current.click()} >
+            {/* <UilScenery /> */}
+            <i class="fa-regular fa-images"></i>
+            <p>Photo</p>
           </div>
-          <div className="option" style={{ color: "var(--video)" }}>
+          {/* <div className="option" style={{ color: "var(--video)" }}>
             <UilPlayCircle />
             Video
           </div>{" "}
@@ -44,8 +47,10 @@ const PostShare = () => {
           <div className="option" style={{ color: "var(--shedule)" }}>
             <UilSchedule />
             Shedule
-          </div>
-          <button className="button ps-button">Share</button>
+          </div> */}
+
+          <button className="button ps-button" ><i class="fa-solid fa-paper-plane"></i> Share</button>
+          
           <div style={{ display: "none" }}>
             <input
               type="file"

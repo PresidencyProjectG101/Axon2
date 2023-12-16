@@ -2,7 +2,7 @@
     display: flex;
     gap: 1rem;
     /* background-color: var(--cardColor); */
-    background-color: aliceblue;
+    background-color: #232D3F;
     padding: 1rem;
     border-radius: 1rem;
     position: sticky;
@@ -20,10 +20,12 @@
     flex-direction: column;
     width: 90%;
     gap: 1rem;
+    color: aliceblue;
 }
 
 .PostShare>div>input{
-    background-color: var(--inputColor);
+    /* background-color: var(--inputColor); */
+    background-color: #414650;
     border-radius: 10px;
     padding: 10px;
     font-size: 17px;
@@ -37,7 +39,7 @@
 
 .postOptions{
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
 }
 
 .option{
@@ -59,7 +61,8 @@
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 12px
+    font-size: 12px;
+    gap: .5rem;
 }
 
 
@@ -81,4 +84,11 @@
     border-radius: 0.5rem;
 }
 
-
+/* icon */
+.fa-images{
+    font-size: 1.5rem;
+}
+.option p{
+    font-size: 1rem;
+    margin: 0 10px;
+}

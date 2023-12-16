@@ -6,6 +6,7 @@ const TrendCard = () => {
   return (
     <div className="TrendCard">
             <h3>Trends for you</h3>
+            
             {TrendData.map((trend)=>{
                 return(
                     <div className="trend">

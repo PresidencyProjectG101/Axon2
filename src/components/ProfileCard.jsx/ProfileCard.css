@@ -5,7 +5,9 @@
     position: relative;
     gap: 1rem;
     overflow-x: clip;
-    background: var(--cardColor);
+    /* background: var(--cardColor); */
+    background: #232D3F;
+    color: aliceblue;
 }
 
 .ProfileImages{
@@ -82,8 +84,8 @@
   }
   
   .follow > span:nth-of-type(2) {
-    color: var(--gray);
-    font-size: 13px;
+    /* color: var(--gray); */
+     font-size: 13px;
   }
   
   .vl {

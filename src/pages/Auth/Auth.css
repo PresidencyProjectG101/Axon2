@@ -115,7 +115,8 @@
   
   
   .authForm{
-      background-color: var(--cardColor);
+      /* background-color: var(--cardColor); */
+      background-color: #232D3F;
       border-radius: 1rem;
       padding: 1rem;
       width: 30rem;

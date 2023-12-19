@@ -1,18 +1,24 @@
 import React from "react";
 import "./Auth.css";
-import Logo from "../../img/logo.png";
+import Logo1 from "../../img/logo1.png";
 
 const Auth = () => {
   return (
     <div className="Auth">
+      {/* =====left===== */}
       <div className="a-left">
-        <img src={Logo} alt="" />
+
+        <img src={Logo1} alt="" />
+
         <div className="Webname">
-          <h1>ZKC Media</h1>
-          <h6>Explore the ideas throughout the world</h6>
+          <h2>Hi,Welcome to</h2>
+          <p>Amuse Axon</p>
+          {/* <h6>Are you ready?!</h6> */}
         </div>
       </div>
 
+
+      {/* ====right===== */}
       {/* <LogIn/> */}
 
       <SignUp/>
@@ -22,6 +28,7 @@ const Auth = () => {
 function LogIn() {
     return (
       <div className="a-right">
+
         <form className="infoForm authForm">
           <h3>Log In</h3>
   
@@ -49,6 +56,7 @@ function LogIn() {
               </span>
             <button className="button infoButton">Login</button>
           </div>
+
         </form>
       </div>
     );
@@ -77,7 +85,7 @@ function SignUp() {
         <div>
           <input
             type="text"
-            className="infoInput"
+            className="infoInput1 username"
             name="username"
             placeholder="Usernames"
           />

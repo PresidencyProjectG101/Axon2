@@ -1,6 +1,6 @@
 import React from "react";
 import "./Auth.css";
-import Logo1 from "../../img/logo1.png";
+import Logo1 from "../../img/logo.png";
 
 const Auth = () => {
   return (
@@ -19,9 +19,9 @@ const Auth = () => {
 
 
       {/* ====right===== */}
-      {/* <LogIn/> */}
+      <LogIn/>
 
-      <SignUp/>
+      {/* <SignUp/> */}
     </div>
   );
 };

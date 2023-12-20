@@ -24,8 +24,15 @@
 .App{
   overflow: hidden;
   color: var(--black);
-  background: #f3f3f3;
+  /* background: #f3f3f3; */
   padding: 1rem 1rem;
+
+background: rgb(20, 26, 36);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.4px);
+-webkit-backdrop-filter: blur(6.4px);
+
 }
 
 .blur{
